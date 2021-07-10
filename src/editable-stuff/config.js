@@ -130,24 +130,8 @@ const getInTouch = {
   email: "peterhong440@gmail.com",
 };
 
-const experiences = {
-  show: true,
-  heading: "Experiences",
-  data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-  ]
-}
 
-const publications = {
+const experiences = {
   show: true,
   heading: "Computer Science Research Publications",
   data: [
@@ -193,4 +177,4 @@ const publications = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, publications };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
