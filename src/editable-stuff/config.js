@@ -16,8 +16,8 @@ const mainBody = {
       url: "https://github.com/peterhong-me",
     },
     {
-      image: "fa-dev",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fa-instagram",
+      url: "https://www.instagram.com/fusioninsider",
     },
     {
       image: "fa-linkedin",
@@ -27,10 +27,10 @@ const mainBody = {
       image: "fa-twitter",
       url: "https://www.twitter.com/p5hong/",
     },
-    {
+    /*{
       image: "fa-television",
       url: "https://www.fusioninsider.org/",
-    },
+    },   */
   ],
 };
 
@@ -64,11 +64,11 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: false,
-  heading: "GitHub Code/Projects",
+  show: true,
+  heading: "GitHub Repositories",
   gitHubUsername: "peterhong-me", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["project-NPDSLINKS","project-SemanticEnhancement","home"],
 };
 
 // Leadership SECTION
@@ -133,7 +133,7 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Computer Science Research Publications",
+  heading: "Publications",
   data: [
     {
       role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
@@ -149,7 +149,7 @@ const experiences = {
       
       ],
       paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
-      
+      slides: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
     },
 
     {
@@ -165,6 +165,7 @@ const experiences = {
         'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
       ],
       paper: require("../editable-stuff/Craig2020SARSE.pdf"),
+
 
     },
   ]
