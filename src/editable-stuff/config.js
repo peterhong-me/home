@@ -135,48 +135,6 @@ const experiences = {
   heading: "Publications",
   data: [
     {
-      role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
-      company: 'peterhong-me/project-NPDSLINKS',
-      companylogo: require("../editable-stuff/NPDSLINKS.png"),
-
-      date: 'Jan 2018 – June 2020',
-      desc:
-        'Independent research project done as part of the Kent School Guild',
-      descBullets: [
-        'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
-        'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; patent-pending (Application Number: KR 10-2019-0087022)',
-      ],
-      paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
-      poster: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
-      video: "https://youtu.be/WXjisSnfGTI",
-      btnname: "Video"
-    },
-
-    {
-      role: 'Histogram Layer for Texture Classification',
-      company: 'peterhong-me/project-SemanticEnhancement',
-      companylogo: require("../editable-stuff/SemanticEnhancement.png"),
-
-      date: 'June 2019 – Aug 2019',
-      desc:
-        'Paper written and presented as part of the 61st Annual UF SSTP; Assisted ML texture analysis research in Professor Alina Zare’s Machine Learning and Sensing Lab by implementing deep network models in PyTorch and conducted various experiments with different parameters',
-      descBullets: [
-        'We propose a hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.',
-        'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
-      ],
-      paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
-      video: "https://youtu.be/FZvnE30DoSI",
-      btnname: "Fun!Video"
-    },
-  ]
-}
-
-/*
-const experiences = {
-  show: true,
-  heading: "Publications",
-  data: [
-    {
       role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
       company: 'peterhong-me/project-NPDSLINKS',
       companylogo: require("../editable-stuff/NPDSLINKS.png"),
@@ -212,7 +170,7 @@ const experiences = {
   ]
 }
 
-*/
+
 
 // Blog SECTION
 // const blog = {
