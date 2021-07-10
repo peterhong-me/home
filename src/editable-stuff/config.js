@@ -147,7 +147,7 @@ const experiences = {
   ]
 }
 
-const experiences = {
+const publications = {
   show: true,
   heading: "Computer Science Research Publications",
   data: [
@@ -160,8 +160,8 @@ const experiences = {
       desc:
         'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
       descBullets: [
-        'Abstract: With the continuing growth in use of large complex data sets for artificial intelligence applications (AIA), unbiased methods should be established for assuring the validity and reliability of both input data and output results. Advancing such standards will help to reduce problems described with the aphorism 'Garbage In, Garbage Out' (GIGO). This concern remains especially important for AIA tools that execute within the environment of interoperable systems which share, exchange, convert, and/or interchange data and metadata such as the Nexus-PORTAL-DOORS-Scribe (NPDS) cyberinfrastructure and its associated Learning Intelligence aNd Knowledge System (LINKS) applications. The PORTAL-DOORS Project (PDP) has developed the NPDS cyberinfrastructure with lexical PORTAL registries, semantic DOORS directories, hybrid Nexus diristries, and Scribe registrars. As a self-referencing and self-describing system, the NPDS cyberinfrastructure has been designed to operate as a pervasive distributed network of data repositories compliant with the Hierarchically Distributed Mobile Metadata (HDMM) architectural style. Building on the foundation of the NPDS cyberinfrastructure with its focus on data, PDP has now introduced LINKS applications with their focus on algorithms and analysis of the data. In addition, PDP has launched a pair of new websites at NPDSLINKS.net and NPDSLINKS.org which will serve respectively as the root of the NPDS cyberinfrastructure and the home for definitions and standards on quality descriptors and quantitative measures to evaluate the data contained within NPDS records. Prototypes of these descriptors and measures for use with NPDS and LINKS are introduced in this report. PDP envisions building better AIA and preventing the unwanted phenomenon of GIGO by using the combination of metrics to detect and reduce bias from data, the NPDS cyberinfrastructure for the data, and LINKS applications for the algorithms.',
-        '',
+        'Abstract: With the continuing growth in use of large complex data sets for artificial intelligence applications (AIA), unbiased methods should be established for assuring the validity and reliability of both input data and output results. Advancing such standards will help to reduce problems described with the aphorism Garbage In Garbage Out (GIGO). This concern remains especially important for AIA tools that execute within the environment of interoperable systems which share, exchange, convert, and/or interchange data and metadata such as the Nexus-PORTAL-DOORS-Scribe (NPDS) cyberinfrastructure and its associated Learning Intelligence aNd Knowledge System (LINKS) applications. The PORTAL-DOORS Project (PDP) has developed the NPDS cyberinfrastructure with lexical PORTAL registries, semantic DOORS directories, hybrid Nexus diristries, and Scribe registrars. As a self-referencing and self-describing system, the NPDS cyberinfrastructure has been designed to operate as a pervasive distributed network of data repositories compliant with the Hierarchically Distributed Mobile Metadata (HDMM) architectural style. Building on the foundation of the NPDS cyberinfrastructure with its focus on data, PDP has now introduced LINKS applications with their focus on algorithms and analysis of the data. In addition, PDP has launched a pair of new websites at NPDSLINKS.net and NPDSLINKS.org which will serve respectively as the root of the NPDS cyberinfrastructure and the home for definitions and standards on quality descriptors and quantitative measures to evaluate the data contained within NPDS records. Prototypes of these descriptors and measures for use with NPDS and LINKS are introduced in this report. PDP envisions building better AIA and preventing the unwanted phenomenon of GIGO by using the combination of metrics to detect and reduce bias from data, the NPDS cyberinfrastructure for the data, and LINKS applications for the algorithms.',
+      
       ],
       paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
       
@@ -177,7 +177,7 @@ const experiences = {
         'Paper written and published in inaugural issue of Brainiacs Journal of Brain Imaging and Computing Sciences',
       descBullets: [
         'Abstract: dskljghasdjkfghasdkjlfhasdkjlfhgaklsjdhfakjlsdhfjklasdhfkjasdhfkjasdhfjklahsdklfjhasdkjfhasdlkjfhaskjdlfhlkasdhjflkasdjflkasdjfkl;asjdf;lkajsdfl;kajsddskfk',
-        '',
+      
       ],
       paper: require("../editable-stuff/Craig2020SARSE.pdf"),
 
