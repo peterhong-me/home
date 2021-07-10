@@ -10,7 +10,6 @@ const mainBody = {
   middleName: "\"Swaggy P\"",
   lastName: "Hong",
   message: " | Engineer | Researcher | Writer | Programmer | Leader | ",
-  message: " Passionate about changing the world with technology ",
   icons: [
     {
       image: "fa-github",
