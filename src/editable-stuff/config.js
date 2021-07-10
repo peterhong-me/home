@@ -133,6 +133,7 @@ const getInTouch = {
 const experiences = {
   show: true,
   heading: "Publications",
+  gitHubUsername: "peterhong-me",
   data: [
     {
       role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
@@ -146,8 +147,8 @@ const experiences = {
         'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
         'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; patent-pending (Application Number: KR 10-2019-0087022)',
       ],
-      paper: require("../editable-stuff/orbitron-paper.pdf"),
-      poster: require("../editable-stuff/TransAILINKSslides.pdf"),
+      paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
+      poster: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
       video: "https://youtu.be/WXjisSnfGTI",
       btnname: "Video"
     },
@@ -164,7 +165,7 @@ const experiences = {
         'We propose a hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.',
         'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
       ],
-      paper: require("../editable-stuff/TransAILINKS0923.pdf"),
+      paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
       video: "https://youtu.be/FZvnE30DoSI",
       btnname: "Fun!Video"
     },
