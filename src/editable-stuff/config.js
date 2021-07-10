@@ -41,7 +41,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/peterhong.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/peterhong.jpg"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -64,8 +64,8 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
-  heading: "Recent Projects",
+  show: false,
+  heading: "GitHub Code/Projects",
   gitHubUsername: "peterhong-me", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
@@ -73,7 +73,7 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
@@ -131,7 +131,7 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
@@ -146,6 +146,47 @@ const experiences = {
     },
   ]
 }
+
+const experiences = {
+  show: true,
+  heading: "Computer Science Research Publications",
+  data: [
+    {
+      role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
+      company: 'Brain Health Alliance Virtual Institute',
+      companylogo: require("../editable-stuff/NPDSLINKS.png"),
+
+      date: 'July 2020 – September 2020',
+      desc:
+        'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
+      descBullets: [
+        'Abstract: With the continuing growth in use of large complex data sets for artificial intelligence applications (AIA), unbiased methods should be established for assuring the validity and reliability of both input data and output results. Advancing such standards will help to reduce problems described with the aphorism 'Garbage In, Garbage Out' (GIGO). This concern remains especially important for AIA tools that execute within the environment of interoperable systems which share, exchange, convert, and/or interchange data and metadata such as the Nexus-PORTAL-DOORS-Scribe (NPDS) cyberinfrastructure and its associated Learning Intelligence aNd Knowledge System (LINKS) applications. The PORTAL-DOORS Project (PDP) has developed the NPDS cyberinfrastructure with lexical PORTAL registries, semantic DOORS directories, hybrid Nexus diristries, and Scribe registrars. As a self-referencing and self-describing system, the NPDS cyberinfrastructure has been designed to operate as a pervasive distributed network of data repositories compliant with the Hierarchically Distributed Mobile Metadata (HDMM) architectural style. Building on the foundation of the NPDS cyberinfrastructure with its focus on data, PDP has now introduced LINKS applications with their focus on algorithms and analysis of the data. In addition, PDP has launched a pair of new websites at NPDSLINKS.net and NPDSLINKS.org which will serve respectively as the root of the NPDS cyberinfrastructure and the home for definitions and standards on quality descriptors and quantitative measures to evaluate the data contained within NPDS records. Prototypes of these descriptors and measures for use with NPDS and LINKS are introduced in this report. PDP envisions building better AIA and preventing the unwanted phenomenon of GIGO by using the combination of metrics to detect and reduce bias from data, the NPDS cyberinfrastructure for the data, and LINKS applications for the algorithms.',
+        '',
+      ],
+      paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
+      
+    },
+
+    {
+      role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
+      company: 'Brain Health Alliance Virtual Institute',
+      companylogo: require("../editable-stuff/SemanticEnhancement.png"),
+
+      date: 'October 2020 – December 2020',
+      desc:
+        'Paper written and published in inaugural issue of Brainiacs Journal of Brain Imaging and Computing Sciences',
+      descBullets: [
+        'Abstract: dskljghasdjkfghasdkjlfhasdkjlfhgaklsjdhfakjlsdhfjklasdhfkjasdhfkjasdhfjklahsdklfjhasdkjfhasdlkjfhaskjdlfhlkasdhjflkasdjflkasdjfkl;asjdf;lkajsdfl;kajsddskfk',
+        '',
+      ],
+      paper: require("../editable-stuff/Craig2020SARSE.pdf"),
+
+    },
+  ]
+}
+
+
+
 
 // Blog SECTION
 // const blog = {
