@@ -9,7 +9,7 @@
 
 <!-- PROJECT LOGO -->
 
-[![Site preview](/public/social-image.png)](https://peterhong-me.github.io/home/)
+[![Site preview]](https://peterhong-me.github.io/home/)
 
 ## Technology Stack 
 
