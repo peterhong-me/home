@@ -61,9 +61,9 @@ Dependencies defined in package.json:
   - Copyrights - open source
   - Acknowledgements(
 
-## Sharing 💗
+## Credit
 
-Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
+This project is open source and was based on work by @hashirshoaeb.
 
 ## Prerequisites 🍪
 
