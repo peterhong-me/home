@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "873fa7e576078459e92c266ad83f204e",
+    "revision": "4412673e04b1a0c249fb543f8d9b5423",
     "url": "/home/index.html"
   },
   {
-    "revision": "f248b9d80759cb6c502c",
+    "revision": "c952340eea3f9409ea1c",
     "url": "/home/static/css/main.956fad23.chunk.css"
   },
   {
-    "revision": "7d359c9a3792ed95489f",
-    "url": "/home/static/js/2.9af5d0da.chunk.js"
+    "revision": "c649a451d6be96da1890",
+    "url": "/home/static/js/2.1a075cc7.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/home/static/js/2.9af5d0da.chunk.js.LICENSE.txt"
+    "url": "/home/static/js/2.1a075cc7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f248b9d80759cb6c502c",
-    "url": "/home/static/js/main.974ddf16.chunk.js"
+    "revision": "c952340eea3f9409ea1c",
+    "url": "/home/static/js/main.4b5bcfc7.chunk.js"
   },
   {
     "revision": "c0578b487099793a068c",
     "url": "/home/static/js/runtime-main.3c590061.js"
+  },
+  {
+    "revision": "2506583ed31fb952c855b38d7df40978",
+    "url": "/home/static/media/Craig2020SARSE.2506583e.pdf"
   },
   {
     "revision": "8c35b15d62981d6e32634e08ee48a0e9",
