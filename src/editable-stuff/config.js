@@ -137,7 +137,7 @@ const experiences = {
   data: [
     {
       role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
-      company: 'Brain Health Alliance Virtual Institute',
+      company: 'peterhong-me/project-NPDSLINKS',
       companylogo: require("../editable-stuff/NPDSLINKS.png"),
 
       date: 'July 2020 – September 2020',
@@ -154,7 +154,7 @@ const experiences = {
 
     {
       role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
-      company: 'Brain Health Alliance Virtual Institute',
+      company: 'peterhong-me/project-SemanticEnhancement',
       companylogo: require("../editable-stuff/SemanticEnhancement.png"),
 
       date: 'October 2020 – December 2020',
