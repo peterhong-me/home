@@ -67,8 +67,8 @@ const repos = {
   show: true,
   heading: "GitHub Repositories",
   gitHubUsername: "peterhong-me", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: ["project-NPDSLINKS","project-SemanticEnhancement","home"],
+  reposLength: 6,
+  specificRepos: [],
 };
 
 // Leadership SECTION
