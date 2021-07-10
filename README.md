@@ -12,7 +12,7 @@
   </p>
 </p>
 
-[![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/)
+[![Site preview](/public/social-image.png)](https://peterhong-me.github.io/home/)
 
 ## Table of Contents
 
