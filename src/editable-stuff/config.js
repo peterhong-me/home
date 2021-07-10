@@ -9,7 +9,8 @@ const mainBody = {
   firstName: "Peter",
   middleName: "",
   lastName: "Hong",
-  message: " Passionate about changing the world with technology. ",
+  devDesc: | Engineer | Programmer | Writer | Brother | Athlete
+  /* message: " Passionate about changing the world with technology. ", */
   icons: [
     {
       image: "fa-github",
