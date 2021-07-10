@@ -16,7 +16,7 @@ const mainBody = {
       url: "https://github.com/peterhong-me",
     },
     {
-      image: "fa-facebook",
+      image: "fa-dev",
       url: "https://www.facebook.com/hashirshoaeb",
     },
     {
