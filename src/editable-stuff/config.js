@@ -133,11 +133,10 @@ const getInTouch = {
 const experiences = {
   show: true,
   heading: "Publications",
-  gitHubUsername: "peterhong-me",
   data: [
     {
       role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
-      company: 'tylertaewook/project-NPDSLINKS',
+      company: 'peterhong-me/project-NPDSLINKS',
       companylogo: require("../editable-stuff/NPDSLINKS.png"),
 
       date: 'Jan 2018 – June 2020',
