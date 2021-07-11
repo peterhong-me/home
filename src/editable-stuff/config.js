@@ -6,35 +6,31 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Tyler",
-  middleName: "\"태욱\"",
-  lastName: "Kim",
-  message: " Making cool things since 2015😎.",
+  firstName: "Peter",
+  middleName: "\"Swaggy P\"",
+  lastName: "Hong",
+  message: " | Engineer | Researcher | Writer | Programmer | Leader | ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/tylertaewook",
+      url: "https://github.com/peterhong-me",
+    },
+    {
+      image: "fa-instagram",
+      url: "https://www.instagram.com/fusioninsider",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/tylertaewook/",
-    },
-    {
-      image: "fa-kaggle",
-      url: "https://www.kaggle.com/tylertaewook",
+      url: "https://www.linkedin.com/in/peterhong440/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/tylertaewook/",
+      url: "https://www.twitter.com/p5hong/",
     },
-    {
-      image: "fa-dev",
-      url: "https://dev.to/tylertaewook",
-    },
-    {
-      image: "fa-medium",
-      url: "https://tylertaewook.medium.com/",
-    },
+    /*{
+      image: "fa-television",
+      url: "https://www.fusioninsider.org/",
+    },   */
   ],
 };
 
@@ -45,7 +41,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/peterhong.jpg"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -57,8 +53,9 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/peterhong.png"),
   imageSize: 375,
-  message: "An incoming freshman for Columbia University whose background is in Arduino-robotics, reinforcement learning, computer vision, and data analysis. I am motivated, initiative, and open to trying new things while serving Korea's mandatory military service until August 2022. Outside tech, I love to skateboard around the city, cook with my family and read new books in new places every week.",
-  resume: require("../editable-stuff/resume.pdf"),
+  message:
+    "I’m a senior at Canyon Crest Academy in San Diego, CA with interests in computer science (semantic web) research, web development, and machine learning. I'm most passionate about giving back to the community and solving complex engineering problems with both technical and managerial skills. I love a late night run with friends and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door.",
+  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -67,11 +64,11 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
-  heading: "Featured Projects",
-  gitHubUsername: "tylertaewook", //i.e."johnDoe12Gh"
+  show: false,
+  heading: "GitHub Repositories",
+  gitHubUsername: "peterhong-me", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["RLpractice","RLpapers","project-orbitron","sstp-hist-cnn","arduino-turret"],
+  specificRepos: ["home","project-SemanticEnhancement","project-NPDSLINKS","Sachen"],
 };
 
 // Leadership SECTION
@@ -79,22 +76,17 @@ const leadership = {
   show: true,
   heading: "Leadership",
   message:
-    "Throughout my high school career, I've been extremely grateful to have opportunities to lead my peers and make an impact in the Kent community. In my role as the President of Kent Coding Club, I initiated and led a STEM outreach program where members taught local students programming and robotics using mBots. During weekdays, I assisted my peers to understand concepts easily in math/science as Peer Tutor. In addition, I proposed and implemented a demo chatbot application to make the peer tutor signup process much easier.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    {
-      img: require("../editable-stuff/peterhong.png"),
-      label: "Coding Club",
-      paragraph: "Teaching how to use foldscopes"
+    { 
+      img: require("../editable-stuff/peterhong.png"), 
+      label: "First slide label", 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
-    {
-      img: require("../editable-stuff/peterhong.png"),
-      label: "Coding Club",
-      paragraph: "Presenting how to program mBots"
-    },
-    {
-      img: require("../editable-stuff/peterhong.png"),
-      label: "Coding Club",
-      paragraph: "Presenting how to program mBots"
+    { 
+      img: require("../editable-stuff/basketball.png"), 
+      label: "Second slide label", 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
   ],
   imageSize: {
@@ -105,7 +97,7 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: false,
+  show: true,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
@@ -135,54 +127,57 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "If you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "tylertaewook@gmail.com",
+  email: "peterhong440@gmail.com",
 };
 
 const experiences = {
   show: true,
-  heading: "Publications",
+  heading: "Computer Science Research Publications",
   data: [
     {
-      role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
+      role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
       company: 'peterhong-me/project-NPDSLINKS',
       companylogo: require("../editable-stuff/NPDSLINKS.png"),
 
-      date: 'Jan 2018 – June 2020',
+      date: 'July 2020 – September 2020',
       desc:
-        'Independent research project done as part of the Kent School Guild',
+        'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
       descBullets: [
-        'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
-        'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; patent-pending (Application Number: KR 10-2019-0087022)',
+        'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
+        'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
+      
       ],
       paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
-      poster: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
-      video: "https://youtu.be/WXjisSnfGTI",
-      btnname: "Video"
+      slides: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
     },
 
     {
-      role: 'Histogram Layer for Texture Classification',
+      role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
       company: 'peterhong-me/project-SemanticEnhancement',
       companylogo: require("../editable-stuff/SemanticEnhancement.png"),
 
-      date: 'June 2019 – Aug 2019',
+      date: 'October 2020 – December 2020',
       desc:
-        'Paper written and presented as part of the 61st Annual UF SSTP; Assisted ML texture analysis research in Professor Alina Zare’s Machine Learning and Sensing Lab by implementing deep network models in PyTorch and conducted various experiments with different parameters',
+        'Paper written and published in inaugural issue of Brainiacs Journal of Brain Imaging and Computing Sciences',
       descBullets: [
-        'We propose a hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.',
-        'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
+        'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
+        'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
       ],
       paper: require("../editable-stuff/Craig2020SARSE.pdf"),
-  
-      video: "https://youtu.be/FZvnE30DoSI",
-      btnname: "Fun!Video"
+
+
     },
   ]
 }
+
+
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
+
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+
+
