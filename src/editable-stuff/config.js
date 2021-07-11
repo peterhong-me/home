@@ -84,7 +84,7 @@ const leadership = {
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/peterhong.png"), 
+      img: require("../editable-stuff/basketball.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -132,7 +132,7 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Publications",
+  heading: "Computer Science Research Publications",
   data: [
     {
       role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
