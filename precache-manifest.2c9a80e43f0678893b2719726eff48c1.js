@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dce05faf46edb32f29e72b1767c72b6e",
+    "revision": "a5b3d7377419741d57232d6caa804308",
     "url": "/home/index.html"
   },
   {
-    "revision": "f90b608533d0e0d7935f",
+    "revision": "cec32dae581e7cfd084b",
     "url": "/home/static/css/main.956fad23.chunk.css"
   },
   {
-    "revision": "cd3fbc320edd4fb893b1",
-    "url": "/home/static/js/2.372055bd.chunk.js"
+    "revision": "be997ceb223aecfd11be",
+    "url": "/home/static/js/2.138688ad.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/home/static/js/2.372055bd.chunk.js.LICENSE.txt"
+    "url": "/home/static/js/2.138688ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f90b608533d0e0d7935f",
-    "url": "/home/static/js/main.56119c4f.chunk.js"
+    "revision": "cec32dae581e7cfd084b",
+    "url": "/home/static/js/main.e9b20e6a.chunk.js"
   },
   {
     "revision": "c0578b487099793a068c",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0b21f10de8be22fd362cc729860350a7",
     "url": "/home/static/media/TransAI2020LINKSslides.0b21f10d.pdf"
-  },
-  {
-    "revision": "377fa1b0239653a7cc915f05a5741225",
-    "url": "/home/static/media/basketball.377fa1b0.png"
   },
   {
     "revision": "d12595bf16046890fecac5ec4ce089e1",
