@@ -131,7 +131,7 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Computer Science Research Publications",
   data: [
     {
