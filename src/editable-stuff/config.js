@@ -9,15 +9,15 @@ const mainBody = {
   firstName: "Peter",
   middleName: "\"Swaggy P\"",
   lastName: "Hong",
-  message: " | Engineer | Researcher | Social Entrepreneur | Writer | Programmer | Leader | Brother | ",
+  message: " | Engineer | Researcher | Social Entrepreneur | Writer | Programmer | ",
   icons: [
     {
       image: "fa-github",
       url: "https://github.com/peterhong-me",
     },
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/fusioninsider",
+      image: "fa-link",
+      url: "https://linktr.ee/coastalhacks",
     },
     {
       image: "fa-linkedin",
