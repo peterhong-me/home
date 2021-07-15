@@ -16,7 +16,7 @@ const mainBody = {
       url: "https://github.com/peterhong-me",
     },
     {
-      image: "fa-link",
+      image: "fa-linktree",
       url: "https://linktr.ee/coastalhacks",
     },
     {
