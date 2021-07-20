@@ -1,30 +1,26 @@
 {
   "files": {
     "main.css": "/home/static/css/main.956fad23.chunk.css",
-    "main.js": "/home/static/js/main.81ae94f2.chunk.js",
-    "main.js.map": "/home/static/js/main.81ae94f2.chunk.js.map",
+    "main.js": "/home/static/js/main.cbc81273.chunk.js",
+    "main.js.map": "/home/static/js/main.cbc81273.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
-    "static/js/2.051f8d04.chunk.js": "/home/static/js/2.051f8d04.chunk.js",
-    "static/js/2.051f8d04.chunk.js.map": "/home/static/js/2.051f8d04.chunk.js.map",
+    "static/js/2.0e128136.chunk.js": "/home/static/js/2.0e128136.chunk.js",
+    "static/js/2.0e128136.chunk.js.map": "/home/static/js/2.0e128136.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.12ad290479d12bf7a5f6d40e337530ea.js": "/home/precache-manifest.12ad290479d12bf7a5f6d40e337530ea.js",
+    "precache-manifest.7b8cb1f676fabe41609120d129b2b943.js": "/home/precache-manifest.7b8cb1f676fabe41609120d129b2b943.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/main.956fad23.chunk.css.map": "/home/static/css/main.956fad23.chunk.css.map",
-    "static/js/2.051f8d04.chunk.js.LICENSE.txt": "/home/static/js/2.051f8d04.chunk.js.LICENSE.txt",
-    "static/media/Craig2020SARSE.pdf": "/home/static/media/Craig2020SARSE.2506583e.pdf",
+    "static/js/2.0e128136.chunk.js.LICENSE.txt": "/home/static/js/2.0e128136.chunk.js.LICENSE.txt",
     "static/media/NPDSLINKS.png": "/home/static/media/NPDSLINKS.8c35b15d.png",
-    "static/media/SemanticEnhancement.png": "/home/static/media/SemanticEnhancement.c53b9dcc.png",
-    "static/media/TransAI2020LINKS0923.pdf": "/home/static/media/TransAI2020LINKS0923.1f6b02b2.pdf",
-    "static/media/TransAI2020LINKSslides.pdf": "/home/static/media/TransAI2020LINKSslides.0b21f10d.pdf",
     "static/media/basketball.png": "/home/static/media/basketball.377fa1b0.png",
     "static/media/peterhong.png": "/home/static/media/peterhong.d12595bf.png",
     "static/media/resume.pdf": "/home/static/media/resume.9d3da0e2.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.3c590061.js",
-    "static/js/2.051f8d04.chunk.js",
+    "static/js/2.0e128136.chunk.js",
     "static/css/main.956fad23.chunk.css",
-    "static/js/main.81ae94f2.chunk.js"
+    "static/js/main.cbc81273.chunk.js"
   ]
 }
