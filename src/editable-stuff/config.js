@@ -6,7 +6,7 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hi, I'm Peter",
+  firstName: "Peter",
   middleName: "\"Swaggy P\"",
   lastName: "Hong",
   message: " Passionate about solving complex problems with technology. ",
@@ -138,15 +138,22 @@ const experiences = {
       role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
       company: 'peterhong-me/project-NPDSLINKS',
       companylogo: require('../editable-stuff/NPDSLINKS.png'),
+
       date: 'July 2020 – September 2020',
+      desc:
+        'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
     },
     
-    /*
+    
     {
       role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
-      companylogo: require('../assets/img/basketball.png'),
-      date: 'May 2017 – May 2018',
-    },   */
+      company: 'peterhong-me/project-SemanticEnhancement',
+      companylogo: require('../editable-stuff/SemanticEnhancement.png'),
+
+      date: 'October 2020 – December 2020',
+      desc:
+        'Paper written and published in inaugural issue of Brainiacs Journal of Brain Imaging and Computing Sciences',
+    },   
   ]
 }
 
