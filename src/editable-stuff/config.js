@@ -6,18 +6,17 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  message: " | Engineer | Researcher | Social Entrepreneur | Writer | Programmer | ",
-  firstName: "Peter",
+  firstName: "Hi, I'm Peter",
   middleName: "\"Swaggy P\"",
   lastName: "Hong",
-  message: " Passionate about solving complex problems with technology. | Engineer | Researcher | Social Entrepreneur | Writer | Programmer | ",
+  message: " Passionate about solving complex problems with technology. ",
   icons: [
     {
       image: "fa-github",
       url: "https://github.com/peterhong-me",
     },
     {
-      image: "fa-linktree",
+      image: "fa-laptop",
       url: "https://linktr.ee/coastalhacks",
     },
     {
@@ -28,10 +27,10 @@ const mainBody = {
       image: "fa-twitter",
       url: "https://www.twitter.com/p5hong/",
     },
-    /*{
-      image: "fa-television",
+    {
+      image: "fa-newspaper-o",
       url: "https://www.fusioninsider.org/",
-    },   */
+    },   
   ],
 };
 
