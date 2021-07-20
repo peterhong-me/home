@@ -14,10 +14,12 @@ const mainBody = {
     {
       image: "fa-github",
       url: "https://github.com/peterhong-me",
+      style: "socialicons"
     },
     {
       image: "fa-laptop",
       url: "https://linktr.ee/coastalhacks",
+      style: "socialicons"
     },
     {
       image: "fa-linkedin",
@@ -30,6 +32,7 @@ const mainBody = {
     {
       image: "fa-newspaper-o",
       url: "https://www.fusioninsider.org/",
+      style: "socialicons"
     },   
   ],
 };
