@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #0cc948, #044a11, #062a45, #232626",
+  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Peter",
   middleName: "\"Swaggy P\"",
   lastName: "Hong",
-  message: " | Engineer | Researcher | Social Entrepreneur | Writer | Programmer | ",
+  message: " Passionate about solving complex problems with technology. | Engineer | Researcher | Social Entrepreneur | Writer | Programmer | ",
   icons: [
     {
       image: "fa-github",
