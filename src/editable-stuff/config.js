@@ -17,7 +17,7 @@ const mainBody = {
       style: "socialicons"
     },
     {
-      image: "fa-laptop",
+      image: "fa-liktr.ee",
       url: "https://linktr.ee/coastalhacks",
       style: "socialicons"
     },
