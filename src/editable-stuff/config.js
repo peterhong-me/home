@@ -6,18 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Tyler",
-  middleName: "\"태욱\"",
-  lastName: "Kim",
-  message: " Making cool things since 2015😎.",
+  firstName: "Peter",
+  middleName: "\"Swaggy P\"",
+  lastName: "Hong",
+  message: " Passionate about solving complex problems with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/tylertaewook",
+      url: "https://github.com/peterhong-me",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/tylertaewook/",
+      url: "https://www.linkedin.com/in/peterhong440/",
     },
     {
       image: "fa-kaggle",
@@ -25,7 +25,7 @@ const mainBody = {
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/tylertaewook/",
+      url: "https://www.twitter.com/p5hong/",
     },
     {
       image: "fa-dev",
@@ -55,9 +55,9 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/tylerkim.png"),
+  imageLink: require("../editable-stuff/peterhong.png"),
   imageSize: 375,
-  message: "An incoming freshman for Columbia University whose background is in Arduino-robotics, reinforcement learning, computer vision, and data analysis. I am motivated, initiative, and open to trying new things while serving Korea's mandatory military service until August 2022. Outside tech, I love to skateboard around the city, cook with my family and read new books in new places every week.",
+  message: "I'm a senior at Canyon Crest Academy in San Diego, CA whose background is in semantic web research, knowledge engineering, web development, and data analysis. I'm most passionate about giving back to my community and solving complex engineering problems with both technical and managerial skills. Outside of the classroom, I love a late night run with friends, a 20 mile bike ride, and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door (especially when I am being productive)!",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -69,9 +69,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Featured Projects",
-  gitHubUsername: "tylertaewook", //i.e."johnDoe12Gh"
-  reposLength: 0,
-  specificRepos: ["RLpractice","RLpapers","project-orbitron","sstp-hist-cnn","arduino-turret"],
+  gitHubUsername: "peterhong-me", //i.e."johnDoe12Gh"
+  reposLength: 6,
+  specificRepos: [],
 };
 
 // Leadership SECTION
@@ -105,23 +105,23 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: false,
+  show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "LaTeX", value: 90 },
+    { name: "HTML/CSS", value: 75 },
+    { name: "GitHub/Git", value: 85 },
+    { name: "Java", value: 65 },
+    { name: "C#", value: 90 },
+    { name: "Swift", value: 65 },
+    { name: "Protégé", value: 85 },
+    { name: "semantic web", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
+    { name: "Collaboration", value: 85 },
+    { name: "Leadership", value: 90 },
+    { name: "Dependability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
@@ -132,10 +132,10 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Let's Get In Touch!",
   message:
     "If you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "tylertaewook@gmail.com",
+  email: "peterhong.me@gmail.com",
 };
 
 const experiences = {
@@ -143,9 +143,9 @@ const experiences = {
   heading: "Publications",
   data: [
     {
-      role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
+      role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
       company: 'tylertaewook/project-orbitron',
-      companylogo: require("../editable-stuff/orbitron.png"),
+      companylogo: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
 
       date: 'Jan 2018 – June 2020',
       desc:
@@ -154,16 +154,16 @@ const experiences = {
         'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
         'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; KR. Patent 10-2268833, “Driving System and Method of Vehicle,” June 18, 2021',
       ],
-      paper: require("../editable-stuff/orbitron-paper.pdf"),
-      poster: require("../editable-stuff/orbitron-poster.pdf"),
+      paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
+      poster: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
       video: "https://youtu.be/WXjisSnfGTI",
       btnname: "Video"
     },
 
     {
-      role: 'Histogram Layer for Texture Classification',
+      role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
       company: 'tylertaewook/sstp-hist-cnn',
-      companylogo: require("../editable-stuff/sstp.png"),
+      companylogo: require("../editable-stuff/Craig2020SARSE.pdf"),
 
       date: 'June 2019 – Aug 2019',
       desc:
