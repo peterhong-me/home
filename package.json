@@ -1,13 +1,13 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://peterhong-me.github.io/home",
+  "homepage": "https://tylertaewook.github.io",
   "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Peter Hong",
-    "email": "peterhong440@gmail.com",
-    "url": "https://github.com/peterhong-me"
+    "name": "Tyler Kim",
+    "email": "tylertaewook@gmail.com",
+    "url": "https://github.com/tylertaewook"
   },
   "dependencies": {
     "axios": "^0.19.2",

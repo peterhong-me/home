@@ -2,6 +2,7 @@ import React from "react";
 import Typist from "react-typist";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Pdf from "../../editable-stuff/resume.pdf";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -38,13 +39,23 @@ const MainBody = React.forwardRef(
             ))}
           </div>
           <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
+            className="btn btn-dark btn-lg "
+            href="https://tylertaewook.github.io/blog/"
             role="button"
-            aria-label="Learn more about me"
+            aria-label="Check out my blog!"
           >
-            More about me
+            Blog
           </a>
+          &nbsp;&nbsp;&nbsp;
+          <a
+            className="btn btn-outline-dark btn-lg "
+            href="https://tylertaewook.github.io/static/media/resume.ac6f176c.pdf"
+            role="button"
+            aria-label="Resume"
+          >
+            Resume
+          </a>
+          
         </Container>
       </Jumbotron>
     );

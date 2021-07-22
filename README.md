@@ -4,15 +4,26 @@
   <h1 align="center">Developer's Portfolio ✨</h1>
 
   <p align="center">
-    The personal website/portfolio of Peter Hong, hosted with GitHub Pages. Built using React and Bootstrap. Site URL / Demo: 
-    <a href="https://peterhong-me.github.io/home/">peterhong-me.github.io/home/</a>
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
+    <a href="https://tylertaewook.github.io">tylertaewook.github.io</a>
     <br />
     <br />
-    
+    <a href="https://hashirshoaeb.com">About Me</a>
+    ·
+    <a href="https://github.com/hashirshoaeb/home/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hashirshoaeb/home/issues">Request Feature</a>
   </p>
 </p>
 
-[![Site preview](/public/social-image.png)](https://peterhong-me.github.io/home/)
+![GitHub contributors](https://img.shields.io/github/contributors/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
+[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/star_book/network)
+[![GitHub issues](https://img.shields.io/github/issues/hashirshoaeb/home?color=ffcc66&style=for-the-badge)](https://github.com/hashirshoaeb/star_book/issues)
+[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
+
+[![Site preview](/public/social-image.png)](https://tylertaewook.github.io/)
 
 ## Table of Contents
 
@@ -61,9 +72,9 @@ Dependencies defined in package.json:
   - Copyrights - open source
   - Acknowledgements(
 
-## Credit
+## Sharing 💗
 
-This project is open source and was based on work by @hashirshoaeb.
+Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
 
 ## Prerequisites 🍪
 
@@ -196,11 +207,3 @@ Have you changed something in the code to create your own version? Feel free to 
   </tr>
 </table>
 
-## Versão em Português :brazil:
-
-Esse projeto foi traduzido para português! Se você gostou dele e quer criar a sua própria versão, confira o repositório do [@tashima42](https://github.com/tashima42) em [https://github.com/Tashima42/home](https://github.com/Tashima42/home).
-Novas contribuições e revisões na tradução são muito bem vindas!
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/hashirshoaeb/home.svg)](https://starchart.cc/hashirshoaeb/home)

@@ -6,34 +6,35 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Peter",
-  middleName: "\"Swaggy P\"",
-  lastName: "Hong",
-  message: " Passionate about solving complex problems with technology. ",
+  firstName: "Tyler",
+  middleName: "\"태욱\"",
+  lastName: "Kim",
+  message: " Making cool things since 2015😎.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/peterhong-me",
-      style: "socialicons"
-    },
-    {
-      image: "fa-liktr.ee",
-      url: "https://linktr.ee/coastalhacks",
-      style: "socialicons"
+      url: "https://github.com/tylertaewook",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/peterhong440/",
+      url: "https://www.linkedin.com/in/tylertaewook/",
+    },
+    {
+      image: "fa-kaggle",
+      url: "https://www.kaggle.com/tylertaewook",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/p5hong/",
+      url: "https://www.twitter.com/tylertaewook/",
     },
     {
-      image: "fa-newspaper-o",
-      url: "https://www.fusioninsider.org/",
-      style: "socialicons"
-    },   
+      image: "fa-dev",
+      url: "https://dev.to/tylertaewook",
+    },
+    {
+      image: "fa-medium",
+      url: "https://tylertaewook.medium.com/",
+    },
   ],
 };
 
@@ -44,7 +45,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/peterhong.jpg"),
+//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -54,11 +55,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/peterhong.png"),
+  imageLink: require("../editable-stuff/tylerkim.png"),
   imageSize: 375,
-  message:
-    "I’m a senior at Canyon Crest Academy in San Diego, CA with interests in computer science (semantic web) research, web development, and machine learning. I'm most passionate about giving back to the community and solving complex engineering problems with both technical and managerial skills. I love a late night run with friends and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  message: "An incoming freshman for Columbia University whose background is in Arduino-robotics, reinforcement learning, computer vision, and data analysis. I am motivated, initiative, and open to trying new things while serving Korea's mandatory military service until August 2022. Outside tech, I love to skateboard around the city, cook with my family and read new books in new places every week.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -68,10 +68,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "GitHub Repositories",
-  gitHubUsername: "peterhong-me", //i.e."johnDoe12Gh"
-  reposLength: 10,
-  specificRepos: [],
+  heading: "Featured Projects",
+  gitHubUsername: "tylertaewook", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["RLpractice","RLpapers","project-orbitron","sstp-hist-cnn","arduino-turret"],
 };
 
 // Leadership SECTION
@@ -79,17 +79,22 @@ const leadership = {
   show: true,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "Throughout my high school career, I've been extremely grateful to have opportunities to lead my peers and make an impact in the Kent community. In my role as the President of Kent Coding Club, I initiated and led a STEM outreach program where members taught local students programming and robotics using mBots. During weekdays, I assisted my peers to understand concepts easily in math/science as Peer Tutor. In addition, I proposed and implemented a demo chatbot application to make the peer tutor signup process much easier.",
   images: [
-    { 
-      img: require("../editable-stuff/basketball.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/cc1.jpeg"),
+      label: "Coding Club",
+      paragraph: "Teaching how to use foldscopes"
     },
-    { 
-      img: require("../editable-stuff/basketball.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/cc2.jpeg"),
+      label: "Coding Club",
+      paragraph: "Presenting how to program mBots"
+    },
+    {
+      img: require("../editable-stuff/kentgenomebox.jpeg"),
+      label: "Coding Club",
+      paragraph: "Presenting how to program mBots"
     },
   ],
   imageSize: {
@@ -100,23 +105,23 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
-    { name: "LaTeX", value: 90 },
-    { name: "HTML/CSS", value: 75 },
-    { name: "GitHub/Git", value: 85 },
-    { name: "Java", value: 65 },
-    { name: "C#", value: 90 },
-    { name: "Swift", value: 65 },
-    { name: "Protégé", value: 85 },
-    { name: "semantic web", value: 80 },
+    { name: "Python", value: 90 },
+    { name: "SQL", value: 75 },
+    { name: "Data Structures", value: 85 },
+    { name: "C/C++", value: 65 },
+    { name: "JavaScript", value: 90 },
+    { name: "React", value: 65 },
+    { name: "HTML/CSS", value: 55 },
+    { name: "C#", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 85 },
-    { name: "Leadership", value: 90 },
-    { name: "Dependability", value: 85 },
+    { name: "Collaboration", value: 90 },
+    { name: "Positivity", value: 75 },
+    { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
@@ -129,34 +134,49 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you have any questions, want to chat, or just want to say hi, please feel free to email me at",
-  email: "peterhong440@gmail.com",
+    "If you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "tylertaewook@gmail.com",
 };
 
 const experiences = {
   show: true,
-  heading: "Research Publications",
+  heading: "Publications",
   data: [
     {
-      role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
-      company: 'peterhong-me/project-NPDSLINKS',
-      companylogo: require('../editable-stuff/NPDSLINKS.png'),
+      role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
+      company: 'tylertaewook/project-orbitron',
+      companylogo: require("../editable-stuff/orbitron.png"),
 
-      date: 'July 2020 – September 2020',
+      date: 'Jan 2018 – June 2020',
       desc:
-        'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
+        'Independent research project done as part of the Kent School Guild',
+      descBullets: [
+        'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
+        'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; KR. Patent 10-2268833, “Driving System and Method of Vehicle,” June 18, 2021',
+      ],
+      paper: require("../editable-stuff/orbitron-paper.pdf"),
+      poster: require("../editable-stuff/orbitron-poster.pdf"),
+      video: "https://youtu.be/WXjisSnfGTI",
+      btnname: "Video"
     },
-    
-    
-    {
-      role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
-      company: 'peterhong-me/project-SemanticEnhancement',
-      companylogo: require('../editable-stuff/SemanticEnhancement.png'),
 
-      date: 'October 2020 – December 2020',
+    {
+      role: 'Histogram Layer for Texture Classification',
+      company: 'tylertaewook/sstp-hist-cnn',
+      companylogo: require("../editable-stuff/sstp.png"),
+
+      date: 'June 2019 – Aug 2019',
       desc:
-        'Paper written and published in inaugural issue of Brainiacs Journal of Brain Imaging and Computing Sciences',
-    },   
+        'Paper written and presented as part of the 61st Annual UF SSTP; Assisted ML texture analysis research in Professor Alina Zare’s Machine Learning and Sensing Lab by implementing deep network models in PyTorch and conducted various experiments with different parameters',
+      descBullets: [
+        'We propose a hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.',
+        'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
+      ],
+      paper: require("../editable-stuff/sstp-paper.pdf"),
+      poster: require("../editable-stuff/sstp-poster.pdf"),
+      video: "https://youtu.be/FZvnE30DoSI",
+      btnname: "Fun!Video"
+    },
   ]
 }
 
@@ -166,51 +186,3 @@ const experiences = {
 // };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
-
-
-
-
-/*
-const experiences = {
-  show: false,
-  heading: "Computer Science Research Publications",
-  data: [
-    {
-      role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
-      company: 'peterhong-me/project-NPDSLINKS',
-      companylogo: require("../editable-stuff/NPDSLINKS.png"),
-
-      date: 'July 2020 – September 2020',
-      desc:
-        'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
-      descBullets: [
-        'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
-        'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
-      
-      ],
-      paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
-      slides: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
-    },
-
-    {
-      role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
-      company: 'peterhong-me/project-SemanticEnhancement',
-      companylogo: require("../editable-stuff/SemanticEnhancement.png"),
-
-      date: 'October 2020 – December 2020',
-      desc:
-        'Paper written and published in inaugural issue of Brainiacs Journal of Brain Imaging and Computing Sciences',
-      descBullets: [
-        'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
-        'Built a sdlkfalskdfjslkfjslkdafjlaskdflsakdfdasfdsfdsfadsfs',
-      ],
-      paper: require("../editable-stuff/Craig2020SARSE.pdf"),
-
-
-    },
-  ]
-}
-
-*/
-
-
