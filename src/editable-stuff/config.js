@@ -154,7 +154,7 @@ const experiences = {
         'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
         'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; KR. Patent 10-2268833, “Driving System and Method of Vehicle,” June 18, 2021',
       ],
-      paper: require("../editable-stuff/SemanticEnhancement.png"),
+      paper: require("../editable-stuff/TransAI2020LINKS0923.png"),
       poster: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
       video: "https://youtu.be/WXjisSnfGTI",
       btnname: "Video"
@@ -163,7 +163,7 @@ const experiences = {
     {
       role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
       company: 'tylertaewook/sstp-hist-cnn',
-      companylogo: require("../editable-stuff/Craig2020SARSE.pdf"),
+      companylogo: require("../editable-stuff/SemanticEnhancement.png"),
 
       date: 'June 2019 – Aug 2019',
       desc:
