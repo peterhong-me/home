@@ -151,7 +151,7 @@ const experiences = {
       desc:
         'Independent research project done as part of the Kent School Guild',
       descBullets: [
-        'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
+        'Built a vehicle with a spherical wheel th at implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
         'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; KR. Patent 10-2268833, “Driving System and Method of Vehicle,” June 18, 2021',
       ],
       paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
