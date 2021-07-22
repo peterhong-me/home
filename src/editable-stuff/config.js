@@ -144,7 +144,7 @@ const experiences = {
   data: [
     {
       role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
-      company: 'tylertaewook/project-orbitron',
+      company: 'peterhong-me/project-NPDSLINKS',
       companylogo: require("../editable-stuff/NPDSLINKS.png"),
 
       date: 'Jan 2018 – June 2020',
