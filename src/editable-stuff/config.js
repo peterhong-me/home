@@ -145,7 +145,7 @@ const experiences = {
     {
       role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',
       company: 'tylertaewook/project-orbitron',
-      companylogo: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
+      companylogo: require("../editable-stuff/NPDSLINKS.png"),
 
       date: 'Jan 2018 – June 2020',
       desc:
@@ -154,7 +154,7 @@ const experiences = {
         'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
         'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; KR. Patent 10-2268833, “Driving System and Method of Vehicle,” June 18, 2021',
       ],
-      paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
+      paper: require("../editable-stuff/SemanticEnhancement.png"),
       poster: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
       video: "https://youtu.be/WXjisSnfGTI",
       btnname: "Video"
