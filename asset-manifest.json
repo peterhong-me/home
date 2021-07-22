@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/home/static/css/main.9d1d1a0e.chunk.css",
-    "main.js": "/home/static/js/main.ced97d88.chunk.js",
-    "main.js.map": "/home/static/js/main.ced97d88.chunk.js.map",
+    "main.js": "/home/static/js/main.909cfcf6.chunk.js",
+    "main.js.map": "/home/static/js/main.909cfcf6.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
     "static/css/2.9a766daa.chunk.css": "/home/static/css/2.9a766daa.chunk.css",
-    "static/js/2.545be599.chunk.js": "/home/static/js/2.545be599.chunk.js",
-    "static/js/2.545be599.chunk.js.map": "/home/static/js/2.545be599.chunk.js.map",
+    "static/js/2.82f9181d.chunk.js": "/home/static/js/2.82f9181d.chunk.js",
+    "static/js/2.82f9181d.chunk.js.map": "/home/static/js/2.82f9181d.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.6e79b3746b4f7d376a413a46156f3c7b.js": "/home/precache-manifest.6e79b3746b4f7d376a413a46156f3c7b.js",
+    "precache-manifest.f0793e27ec30666e901471b33169c2dd.js": "/home/precache-manifest.f0793e27ec30666e901471b33169c2dd.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.9a766daa.chunk.css.map": "/home/static/css/2.9a766daa.chunk.css.map",
     "static/css/main.9d1d1a0e.chunk.css.map": "/home/static/css/main.9d1d1a0e.chunk.css.map",
-    "static/js/2.545be599.chunk.js.LICENSE.txt": "/home/static/js/2.545be599.chunk.js.LICENSE.txt",
+    "static/js/2.82f9181d.chunk.js.LICENSE.txt": "/home/static/js/2.82f9181d.chunk.js.LICENSE.txt",
     "static/media/Craig2020SARSE.pdf": "/home/static/media/Craig2020SARSE.2506583e.pdf",
     "static/media/TransAI2020LINKS0923.pdf": "/home/static/media/TransAI2020LINKS0923.1f6b02b2.pdf",
     "static/media/TransAI2020LINKSslides.pdf": "/home/static/media/TransAI2020LINKSslides.0b21f10d.pdf",
@@ -21,15 +21,13 @@
     "static/media/cc2.jpeg": "/home/static/media/cc2.a388ffe6.jpeg",
     "static/media/kentgenomebox.jpeg": "/home/static/media/kentgenomebox.bf0d69fe.jpeg",
     "static/media/peterhong.png": "/home/static/media/peterhong.d12595bf.png",
-    "static/media/resume.pdf": "/home/static/media/resume.ac6f176c.pdf",
-    "static/media/sstp-paper.pdf": "/home/static/media/sstp-paper.adc69ffa.pdf",
-    "static/media/sstp-poster.pdf": "/home/static/media/sstp-poster.ac371feb.pdf"
+    "static/media/resume.pdf": "/home/static/media/resume.ac6f176c.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.3c590061.js",
     "static/css/2.9a766daa.chunk.css",
-    "static/js/2.545be599.chunk.js",
+    "static/js/2.82f9181d.chunk.js",
     "static/css/main.9d1d1a0e.chunk.css",
-    "static/js/main.ced97d88.chunk.js"
+    "static/js/main.909cfcf6.chunk.js"
   ]
 }
