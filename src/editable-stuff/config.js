@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Peter",
   middleName: "\"Swaggy P\"",
   lastName: "Hong",
-  message: " Passionate about solving complex problems with technology. ",
+  message: " Engineer | Researcher | Social Entrepreneur | Writer | Athlete ",
   icons: [
     {
       image: "fa-github",
@@ -57,7 +57,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/peterhong.png"),
   imageSize: 375,
-  message: "I'm a senior at Canyon Crest Academy in San Diego, CA whose background is in semantic web research, knowledge engineering, web development, and data analysis. I'm most passionate about giving back to my community and solving complex engineering problems with both technical and managerial skills. Outside of the classroom, I love a late night run with friends, a 20 mile bike ride, and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door (especially when I am being productive)!",
+  message: "I'm a senior at Canyon Crest Academy in San Diego, CA whose background is in computer science research, software engineering (web development), and data analysis. I'm most passionate about giving back to my community and solving complex engineering problems with both technical and managerial skills. Outside of the classroom, I love a late-night run with friends, a 20-mile bike ride, and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door (especially when I am being productive)!",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -149,7 +149,7 @@ const experiences = {
 
       date: 'Jan 2018 – June 2020',
       desc:
-        'Independent research project done as part of the Kent School Guild',
+        'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
       descBullets: [
         'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
         'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; KR. Patent 10-2268833, “Driving System and Method of Vehicle,” June 18, 2021',
@@ -167,7 +167,7 @@ const experiences = {
 
       date: 'June 2019 – Aug 2019',
       desc:
-        'Paper written and presented as part of the 61st Annual UF SSTP; Assisted ML texture analysis research in Professor Alina Zare’s Machine Learning and Sensing Lab by implementing deep network models in PyTorch and conducted various experiments with different parameters',
+        'Paper written and published in inaugural issue of Brainiacs Journal of Brain Imaging and Computing Sciences',
       descBullets: [
         'We propose a hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.',
         'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
