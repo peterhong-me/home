@@ -67,7 +67,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Featured Projects",
   gitHubUsername: "peterhong-me", //i.e."johnDoe12Gh"
   reposLength: 6,
@@ -155,9 +155,7 @@ const experiences = {
         'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; KR. Patent 10-2268833, “Driving System and Method of Vehicle,” June 18, 2021',
       ],
       paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
-      poster: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
-      video: "https://youtu.be/WXjisSnfGTI",
-      btnname: "Video"
+      slides: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
     },
 
     {
@@ -173,9 +171,6 @@ const experiences = {
         'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
       ],
       paper: require("../editable-stuff/Craig2020SARSE.pdf"),
-      poster: require("../editable-stuff/Craig2020SARSE.pdf"),
-      video: "https://youtu.be/FZvnE30DoSI",
-      btnname: "Fun!Video"
     },
   ]
 }
