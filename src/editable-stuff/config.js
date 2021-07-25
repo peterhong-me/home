@@ -20,7 +20,7 @@ const mainBody = {
       url: "https://www.linkedin.com/in/peterhong440/",
     },
     {
-      image: "fa-youtube-play",
+      image: "fa-facebook",
       url: "https://www.youtube.com/channel/UC682a64KNa9mlIRLonY75lw",
     },
     {
