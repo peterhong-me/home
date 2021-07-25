@@ -20,20 +20,12 @@ const mainBody = {
       url: "https://www.linkedin.com/in/peterhong440/",
     },
     {
-      image: "fa-kaggle",
-      url: "https://www.kaggle.com/tylertaewook",
+      image: "fa-youtube-play",
+      url: "https://www.youtube.com/channel/UC682a64KNa9mlIRLonY75lw",
     },
     {
       image: "fa-twitter",
       url: "https://www.twitter.com/p5hong/",
-    },
-    {
-      image: "fa-dev",
-      url: "https://dev.to/tylertaewook",
-    },
-    {
-      image: "fa-medium",
-      url: "https://tylertaewook.medium.com/",
     },
   ],
 };
