@@ -44,7 +44,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Online Publication"
           >
-            Blog
+            Online Publication
           </a>
           &nbsp;&nbsp;&nbsp;
           <a
@@ -53,7 +53,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Hackathon"
           >
-            Resume
+            Hackathon
           </a>
           
         </Container>
