@@ -142,7 +142,7 @@ const experiences = {
         'Developed NPDS cyberinfrastructure with definitions and standards on quality descriptors and quantitative measures to evaluate data records. ',
       ],
       paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
-      slides: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
+      poster: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
     },
 
     {
