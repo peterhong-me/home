@@ -48,9 +48,9 @@ const Navigation = React.forwardRef((props, ref) => {
           { 
             <Nav.Link
               className="nav-link lead"
-              href="https://peterhong-me.github.io/home/publications/"
+              href="https://scholar.google.com/citations?user=vsOo6q4AAAAJ&hl=en"
             >
-              Research Publications
+              Research Profile
             </Nav.Link>
           }
           {repos.show && (
