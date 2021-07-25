@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0fc5cee2ca085b0941c270732ddb3e8",
+    "revision": "ba6984941ced997a208af67414a1cdb7",
     "url": "/home/index.html"
   },
   {
-    "revision": "405785ca095053966dfb",
+    "revision": "73809829a4b24ae43e21",
     "url": "/home/static/css/2.9a766daa.chunk.css"
   },
   {
-    "revision": "386e2d3d43a262948c17",
+    "revision": "1f16e932e827bfa4ba92",
     "url": "/home/static/css/main.9d1d1a0e.chunk.css"
   },
   {
-    "revision": "405785ca095053966dfb",
-    "url": "/home/static/js/2.59ed5e60.chunk.js"
+    "revision": "73809829a4b24ae43e21",
+    "url": "/home/static/js/2.315a184a.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/home/static/js/2.59ed5e60.chunk.js.LICENSE.txt"
+    "url": "/home/static/js/2.315a184a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "386e2d3d43a262948c17",
-    "url": "/home/static/js/main.711416a8.chunk.js"
+    "revision": "1f16e932e827bfa4ba92",
+    "url": "/home/static/js/main.42cf0a12.chunk.js"
   },
   {
     "revision": "c0578b487099793a068c",
@@ -48,16 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/TransAI2020LINKSslides.0b21f10d.pdf"
   },
   {
-    "revision": "4111f7a7e505f9b158110e7b35bfe22e",
-    "url": "/home/static/media/cc1.4111f7a7.jpeg"
-  },
-  {
-    "revision": "a388ffe6735d5dc7c906c94a9538bb8d",
-    "url": "/home/static/media/cc2.a388ffe6.jpeg"
-  },
-  {
-    "revision": "bf0d69feff69b73bbcdad9063ed0f410",
-    "url": "/home/static/media/kentgenomebox.bf0d69fe.jpeg"
+    "revision": "377fa1b0239653a7cc915f05a5741225",
+    "url": "/home/static/media/basketball.377fa1b0.png"
   },
   {
     "revision": "58f54c903e0f9b55fe274409851f1508",
