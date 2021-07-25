@@ -131,7 +131,7 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Let's Get In Touch!",
   message:
     "If you have any questions, or if you just want to say hi, please feel free to email me at",
