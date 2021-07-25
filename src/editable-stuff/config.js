@@ -3,6 +3,8 @@ const navBar = {
   show: true,
 };
 
+
+
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
@@ -20,7 +22,7 @@ const mainBody = {
       url: "https://www.linkedin.com/in/peterhong440/",
     },
     {
-      image: "fa-facebook",
+      image: "fa-youtube",
       url: "https://www.youtube.com/channel/UC682a64KNa9mlIRLonY75lw",
     },
     {
