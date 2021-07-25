@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/home/static/css/main.9d1d1a0e.chunk.css",
-    "main.js": "/home/static/js/main.42cf0a12.chunk.js",
-    "main.js.map": "/home/static/js/main.42cf0a12.chunk.js.map",
+    "main.js": "/home/static/js/main.57e65429.chunk.js",
+    "main.js.map": "/home/static/js/main.57e65429.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
     "static/css/2.9a766daa.chunk.css": "/home/static/css/2.9a766daa.chunk.css",
-    "static/js/2.315a184a.chunk.js": "/home/static/js/2.315a184a.chunk.js",
-    "static/js/2.315a184a.chunk.js.map": "/home/static/js/2.315a184a.chunk.js.map",
+    "static/js/2.abe1e690.chunk.js": "/home/static/js/2.abe1e690.chunk.js",
+    "static/js/2.abe1e690.chunk.js.map": "/home/static/js/2.abe1e690.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.039bd44023aeb3cc0717b545c165cb2c.js": "/home/precache-manifest.039bd44023aeb3cc0717b545c165cb2c.js",
+    "precache-manifest.d7281217120ffcf40e96731244953494.js": "/home/precache-manifest.d7281217120ffcf40e96731244953494.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.9a766daa.chunk.css.map": "/home/static/css/2.9a766daa.chunk.css.map",
     "static/css/main.9d1d1a0e.chunk.css.map": "/home/static/css/main.9d1d1a0e.chunk.css.map",
-    "static/js/2.315a184a.chunk.js.LICENSE.txt": "/home/static/js/2.315a184a.chunk.js.LICENSE.txt",
+    "static/js/2.abe1e690.chunk.js.LICENSE.txt": "/home/static/js/2.abe1e690.chunk.js.LICENSE.txt",
     "static/media/Craig2020SARSE.pdf": "/home/static/media/Craig2020SARSE.2506583e.pdf",
     "static/media/NPDSLINKS.png": "/home/static/media/NPDSLINKS.8c35b15d.png",
     "static/media/SemanticEnhancement.png": "/home/static/media/SemanticEnhancement.c53b9dcc.png",
@@ -21,13 +21,14 @@
     "static/media/TransAI2020LINKSslides.pdf": "/home/static/media/TransAI2020LINKSslides.0b21f10d.pdf",
     "static/media/basketball.png": "/home/static/media/basketball.377fa1b0.png",
     "static/media/peterhong.png": "/home/static/media/peterhong.58f54c90.png",
-    "static/media/resume.pdf": "/home/static/media/resume.defa1bdb.pdf"
+    "static/media/resume.pdf": "/home/static/media/resume.defa1bdb.pdf",
+    "static/media/semanticenhancement.png": "/home/static/media/semanticenhancement.c53b9dcc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3c590061.js",
     "static/css/2.9a766daa.chunk.css",
-    "static/js/2.315a184a.chunk.js",
+    "static/js/2.abe1e690.chunk.js",
     "static/css/main.9d1d1a0e.chunk.css",
-    "static/js/main.42cf0a12.chunk.js"
+    "static/js/main.57e65429.chunk.js"
   ]
 }
