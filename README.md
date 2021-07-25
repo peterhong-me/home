@@ -4,7 +4,7 @@
   <h1 align="center">Developer's Portfolio ✨</h1>
 
   <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Original Template Credit to Hashir Shoaib. Site URL / Demo: 
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
     <a href="https://peterhong-me.github.io/home/">peterhong-me.github.io</a>
   </p>
 </p>
@@ -60,7 +60,7 @@ Dependencies defined in package.json:
 
 ## Sharing 💗
 
-Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
+Project is open source and was based on work done by Hashir Shoaeb that can be found here https://github.com/hashirshoaeb/home.
 
 ## Prerequisites 🍪
 
