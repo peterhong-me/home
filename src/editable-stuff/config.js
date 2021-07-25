@@ -71,22 +71,17 @@ const leadership = {
   show: true,
   heading: "Leadership",
   message:
-    "Throughout my high school career, I've been extremely grateful to have opportunities to lead my peers and make an impact in the Kent community. In my role as the President of Kent Coding Club, I initiated and led a STEM outreach program where members taught local students programming and robotics using mBots. During weekdays, I assisted my peers to understand concepts easily in math/science as Peer Tutor. In addition, I proposed and implemented a demo chatbot application to make the peer tutor signup process much easier.",
+    "Throughout my high school career, I've been extremely grateful to have opportunities to lead my peers and make an impact on the greater San Diego community. In my role as head basketball coach of multiple Master Sports youth basketball teams, I fostered a culture of inclusivity, collaboration, and dedication whether in practices or during games. As a co-organizer and director of sponsorships for CoastalHacks, I primarily worked on obtaining sponsorships from local organizations, larger companies, and other nonprofits in order to provide the most optimal experience for participants. ",
   images: [
     {
-      img: require("../editable-stuff/cc1.jpeg"),
-      label: "Coding Club",
-      paragraph: "Teaching how to use foldscopes"
+      img: require("../editable-stuff/basketball.png"),
+      label: "League Champions",
+      paragraph: "Winning Master Sports Youth Basketball League Championship"
     },
     {
-      img: require("../editable-stuff/cc2.jpeg"),
-      label: "Coding Club",
-      paragraph: "Presenting how to program mBots"
-    },
-    {
-      img: require("../editable-stuff/kentgenomebox.jpeg"),
-      label: "Coding Club",
-      paragraph: "Presenting how to program mBots"
+      img: require("../editable-stuff/basketball.png"),
+      label: "Hackathon ",
+      paragraph: "Organizing technical workshops for participants"
     },
   ],
   imageSize: {
