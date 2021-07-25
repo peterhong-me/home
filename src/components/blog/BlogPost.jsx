@@ -1,3 +1,6 @@
+
+/*
+
 import React from "react";
 import bloglist from "../../editable-stuff/blog";
 const BlogPost = ({ match }) => {
@@ -19,3 +22,6 @@ const BlogPost = ({ match }) => {
 };
 
 export default BlogPost;
+
+
+*/
