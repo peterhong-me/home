@@ -49,7 +49,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/peterhong.png"),
   imageSize: 375,
-  message: "I'm a senior at Canyon Crest Academy in San Diego, CA whose background is in computer science research, software engineering (web development), and data analysis. I'm most passionate about giving back to my community and solving complex engineering problems with both technical and managerial skills. Outside of the classroom, I love a late-night run with friends, a 20-mile bike ride, and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door (especially when I am being productive)!",
+  message: "I'm a senior at Canyon Crest Academy in San Diego, CA whose background is in computer science research, software engineering (web development), and data analysis. I'm a motivated, creative, and detail-oriented student who loves to solve problems with both technical and managerial skills. Outside of the classroom, I love a late-night run with friends, a 20-mile bike ride, and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door (especially when I am being productive)!",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -74,7 +74,7 @@ const leadership = {
     "Throughout my high school career, I've been extremely grateful to have opportunities to lead my peers and make an impact on the greater San Diego community. In my role as co-organizer and director of sponsorships for CoastalHacks, I primarily worked on obtaining sponsorships from local organizations, larger companies, and other nonprofits in order to provide the most optimal experience for participants. As head basketball coach of multiple Master Sports youth basketball teams, I fostered a culture of inclusivity, collaboration, and dedication whether in practices or during games.",
   images: [
     {
-      img: require("../editable-stuff/semanticenhancement.png"),
+      img: require("../editable-stuff/peterhong.png"),
       label: "Hackathon",
       paragraph: "Organizing technical workshops for participants"
     },
@@ -138,8 +138,8 @@ const experiences = {
       desc:
         'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
       descBullets: [
-        'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
-        'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; KR. Patent 10-2268833, “Driving System and Method of Vehicle,” June 18, 2021',
+        'Introduced LINKS applications with focus on algorithms and analysis of data.',
+        'Developed NPDS cyberinfrastructure with definitions and standards on quality descriptors and quantitative measures to evaluate data records. ',
       ],
       paper: require("../editable-stuff/TransAI2020LINKS0923.pdf"),
       slides: require("../editable-stuff/TransAI2020LINKSslides.pdf"),
@@ -147,15 +147,15 @@ const experiences = {
 
     {
       role: 'Survey, Analysis, and Requirements for Semantic Enhancement to Support Machine Understanding of Scientific Literature',
-      company: 'tylertaewook/sstp-hist-cnn',
+      company: 'peterhong-me/project-SemanticEnhancement',
       companylogo: require("../editable-stuff/SemanticEnhancement.png"),
 
-      date: 'June 2019 – Aug 2019',
+      date: 'October 2020 – December 2020',
       desc:
         'Paper written and published in inaugural issue of Brainiacs Journal of Brain Imaging and Computing Sciences',
       descBullets: [
-        'We propose a hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.',
-        'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
+        'Proposed a novel semantic enhancement workflow process for Brainiacs Journal of Brain Imaging and Computing Sciences. ',
+        'Conducted literature survey on status of semantic web for brain sciences/health and proposed implications of survey findings.',
       ],
       paper: require("../editable-stuff/Craig2020SARSE.pdf"),
     },
