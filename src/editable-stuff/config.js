@@ -11,7 +11,7 @@ const mainBody = {
   firstName: "Peter",
   middleName: "\"Swaggy P\"",
   lastName: "Hong",
-  message: " | Engineer | Researcher | Social Entrepreneur | Writer | Intern | ",
+  message: " | Engineer | Researcher | Social Entrepreneur | Writer | Portfolio Manager | ",
   icons: [
     {
       image: "fa-github",
@@ -136,7 +136,7 @@ const experiences = {
       company: 'peterhong-me/project-NPDSLINKS',
       companylogo: require("../editable-stuff/NPDSLINKS.png"),
 
-      date: 'Jan 2018 – June 2020',
+      date: 'July 2020 – September 2020',
       desc:
         'Paper written and presented as part of the IEEE 2nd International Conference on Transdisciplinary Artificial Intelligence (TransAI), published at IEEE Xplore Page',
       descBullets: [
