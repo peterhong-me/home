@@ -22,7 +22,7 @@ const mainBody = {
       url: "https://www.linkedin.com/in/peterhong440/",
     },
     {
-      image: "fa-bicycle",
+      image: "fa-child",
       url: "https://www.strava.com/athletes/89204263",
     },
     {
