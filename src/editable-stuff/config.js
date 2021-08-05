@@ -11,7 +11,7 @@ const mainBody = {
   firstName: "Peter",
   middleName: "\"Swaggy P\"",
   lastName: "Hong",
-  message: " | Researcher | Engineer | Entrepreneur | Writer | Athlete | ",
+  message: " | Researcher | Engineer | Entrepreneur | Writer | Programmer | ",
   icons: [
     {
       image: "fa-github",
@@ -22,7 +22,7 @@ const mainBody = {
       url: "https://www.linkedin.com/in/peterhong440/",
     },
     {
-      image: "fa-youtube",
+      image: "fa-strava",
       url: "https://www.strava.com/athletes/89204263",
     },
     {
