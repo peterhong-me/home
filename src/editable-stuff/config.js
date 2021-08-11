@@ -11,7 +11,7 @@ const mainBody = {
   firstName: "Peter",
   middleName: " ",
   lastName: "Hong",
-  message: " | Researcher | Engineer | Entrepreneur | Writer | Tech-Enthusiast | ",
+  message: " | Researcher | Engineer | Entrepreneur | Writer | Aspiring Triathlete | ",
   icons: [
     {
       image: "fa-github",
