@@ -52,7 +52,7 @@ const about = {
   imageLink: require("../editable-stuff/peterhong.png"),
   imageSize: 375,
   message: "I'm a senior at Canyon Crest Academy in San Diego, CA whose background is in computer science research, stock trading, and data analysis. I'm a motivated, creative, and detail-oriented student who loves to solve problems with both technical and managerial skills. Outside of the classroom, I love a late-night run with friends, a 20-mile bike ride, and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door (especially when I am being productive)!",
-  resume: require("../editable-stuff/resume.pdf"),
+  resume: require("../editable-stuff/PeterHongShortResume.pdf"),
 };
 
 // PROJECTS SECTION

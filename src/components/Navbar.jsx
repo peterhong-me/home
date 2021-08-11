@@ -50,7 +50,7 @@ const Navigation = React.forwardRef((props, ref) => {
               className="nav-link lead"
               href="https://scholar.google.com/citations?user=vsOo6q4AAAAJ&hl=en"
             >
-              Research Profile
+              Google Scholar Profile
             </Nav.Link>
           }
           {repos.show && (
@@ -67,7 +67,7 @@ const Navigation = React.forwardRef((props, ref) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Resume
+            Extended Resume
           </Nav.Link>
           {about.show && (
             <Nav.Link
