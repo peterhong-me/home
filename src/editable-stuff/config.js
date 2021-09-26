@@ -71,9 +71,9 @@ const repos = {
 // Leadership SECTION
 const leadership = {
   show: true,
-  heading: "Leadership",
+  heading: "Experience",
   message:
-    "Throughout my high school career, I've been extremely grateful to have opportunities to lead others and make an impact on the greater San Diego community. In my role as co-organizer for CoastalHacks, I primarily worked on obtaining sponsorships from local organizations, larger companies, and other nonprofits in order to provide the most optimal experience for participants. As head basketball coach of multiple Master Sports youth basketball teams, I fostered a culture of inclusivity, collaboration, and dedication whether in practices or during games. As founder and editor-in-chief of Fusion Insider, I am responsible for managing and leading a team of 25+ staff members to produce quality articles on a consistent basis.",
+    "Throughout my high school career, I've been extremely grateful to have opportunities to lead others and make an impact on my community. In my role as co-organizer for CoastalHacks, I primarily worked on obtaining sponsorships from local organizations, larger companies, and other nonprofits in order to provide the most optimal experience for participants. As head basketball coach of multiple Master Sports youth basketball teams, I fostered a culture of inclusivity, collaboration, and dedication whether in practices or during games. As founder and editor-in-chief of Fusion Insider, I am responsible for managing and leading a team of 25+ staff members to produce quality articles on a consistent basis.",
   images: [
     {
       img: require("../editable-stuff/hackathonworkshoppic.png"),
