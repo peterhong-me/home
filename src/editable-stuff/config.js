@@ -51,7 +51,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/peterhong.png"),
   imageSize: 375,
-  message: "I'm a senior at Canyon Crest Academy in sunny San Diego, CA. I'm an internationally published scientific researcher, technical writer, and student who loves to solve problems with both technical and managerial skills. Outside of the classroom, I love a late-night swim with friends, a 10-mile bike ride, and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door (especially when I am being productive)!",
+  message: "I'm a senior at Canyon Crest Academy in sunny San Diego, CA. I'm an internationally published computational researcher, co-organizer of a hackathon with 400+ participants, technical writer, and founder of an online business and technology publication with an international audience (thousands of monthly views). Outside of the classroom, I love a late-night swim with friends, a 10-mile bike ride, and a Sunday morning read. My biggest pet peeve is when my younger brother leaves my room and does not close the door (especially when I am being productive)!",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
