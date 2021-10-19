@@ -129,7 +129,7 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Computer Science Research Publications",
+  heading: "Research Publications",
   data: [
     {
       role: 'NPDSLINKS: Nexus-PORTAL-DOORS-Scribe Learning Intelligence aNd Knowledge System',

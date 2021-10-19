@@ -42,18 +42,18 @@ const MainBody = React.forwardRef(
             className="btn btn-dark btn-lg "
             href="https://www.fusioninsider.org/"
             role="button"
-            aria-label="Online Publication"
+            aria-label="Fusion Insider Online Publication"
           >
-            Online Publication
+            Fusion Insider Online Publication
           </a>
           &nbsp;&nbsp;&nbsp;
           <a
             className="btn btn-outline-dark btn-lg "
             href="https://linktr.ee/coastalhacks"
             role="button"
-            aria-label="Hackathon"
+            aria-label="CoastalHacks Hackathon"
           >
-            Hackathon
+            CoastalHacks Hackathon
           </a>
           
         </Container>
