@@ -77,8 +77,8 @@ const leadership = {
   images: [
     {
       img: require("../editable-stuff/hackathonworkshoppic.png"),
-      label: "Hackathon",
-      paragraph: "Organizing technical workshops for participants"
+      label: " ",
+      paragraph: " "
     },
     {
       img: require("../editable-stuff/basketball.png"),
