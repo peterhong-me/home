@@ -14,12 +14,12 @@ const mainBody = {
   message: " | Researcher | Engineer | Entrepreneur | Writer | Aspiring Triathlete | ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/peterhong-me",
-    },
-    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/peterhong440/",
+    },
+    {
+      image: "fa-github",
+      url: "https://github.com/peterhong-me",
     },
     {
       image: "fa-strava",
