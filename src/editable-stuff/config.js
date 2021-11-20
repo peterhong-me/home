@@ -8,10 +8,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hi, Peter",
+  firstName: "Hi, I'm Peter",
   middleName: " ",
   lastName: "Hong",
-  message: " | Researcher | Engineer | Entrepreneur | Writer | Aspiring Triathlete | ",
+  message: " | 17 y/o Student | Engineer | Entrepreneur | Writer | Triathlete | ",
   icons: [
     {
       image: "fa-linkedin",
