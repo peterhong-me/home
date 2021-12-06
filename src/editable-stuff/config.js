@@ -11,7 +11,7 @@ const mainBody = {
   firstName: "Hi, I'm Peter",
   middleName: " ",
   lastName: "Hong",
-  message: " | 17 y/o Student | Engineer | Entrepreneur | Writer | Triathlete | ",
+  message: " | Researcher | Tech Entrepreneur | Founder | Writer | Triathlete | ",
   icons: [
     {
       image: "fa-linkedin",
